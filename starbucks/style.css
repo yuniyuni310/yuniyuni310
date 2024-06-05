@@ -10,3 +10,33 @@ a {text-decoration: none;
 ul, ol {list-style: none;}
 img {vertical-align: bottom;}
 
+
+/* 헤더설정 */
+
+header {background-color:#F6F5EF;
+border-bottom: 1px solid #000;}
+.header_inner {display: flex;
+               position: relative;
+                align-items: flex-end; }
+
+.header_inner h1 {width: 75px;
+                height: 75px;}
+.header_inner h1 a {}
+.header_inner h1 a img {max-width:75px ;
+                        width: 100%;}
+
+.header_inner nav {width: calc(100% - 75px);
+}
+.header_inner nav ul {display: flex;
+                    width: 100%;
+                justify-content: space-around;}
+.header_inner nav li {}
+.header_inner nav a {}
+
+.header_inner .util {position: absolute;
+right: 0;
+top: 0;}
+
+
+
+
