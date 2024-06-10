@@ -135,6 +135,47 @@ section:nth-child(1) .mainImg {
 .mainImg img:nth-child(2) {}
 .mainImg img:nth-child(3) {transform: translateX(-70px);}
 
+/* 두번째섹션설정 */
+
+section:nth-child(2) {display: flex;
+height: 62px;}
+section:nth-child(2) .notice {background-color: #111;
+    width: 50%;
+color: #fff;
+display: flex;
+justify-content: flex-end;}
+section:nth-child(2) .promo {background-color: #f6f5ef ;
+width: 50%;}
+
+/* 공지사항설정 */
+
+.notice a {color: #fff;
+display: block;
+font-size: 13px;
+padding: 5px 0;}
+
+.notice_inner {display: flex;
+justify-content: space-between;
+align-items: center;}
+.notice_inner ul {position: relative;
+width: 70%;
+height: 24px;
+overflow: hidden;}
+.notice_inner li {position: absolute;
+background-color: #111;
+left: 0;
+top: 100%;
+transition: all 0.8s;
+}
+.notice_inner li:nth-child(1) {left: 0;
+    top: 0;}
+
+    .notice_inner li:hover {top: 0;}
+
+
+
+
+
 /* 미디어쿼리구간설정############################################### */
 
 /* 와이드데스크탑 설정 */
@@ -145,4 +186,10 @@ section:nth-child(1) .mainImg {
 
     .header_inner {width: 1240px;
                     margin: 0 auto;}
+
+    .notice_inner {width: 620px;
+               
+    }
+    .promo_inner{width: 620px;}
+
 }
