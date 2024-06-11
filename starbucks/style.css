@@ -277,9 +277,80 @@ letter-spacing:-1px;
 }
 
 
+/* 네번째섹션설정 */
+section:nth-child(4) {background-image: url(img/summer_bean_bg.png);
+                        background-size: cover;
+                        background-position: center bottom;
+                    height: 400px;
+                padding: 40px 0;}
+
+.summer_inner {display: flex;
+                justify-content: center;}
+
+.summer_inner .imgBox {width: 50%;
+display: flex;
+justify-content: flex-end;}
+
+.summer_inner .txtBox {display: flex;
+                    flex-direction: column;
+                justify-content: center;
+                color: #7e5732;}
+.summer_inner .txtBox h4 {letter-spacing: -2px;
+                        font-size: 18px;}
+.summer_inner .txtBox h2 {letter-spacing: -1px;
+margin-bottom: 5px;
+font-size: 24px;}
+.summer_inner .txtBox p {letter-spacing: -2px;
+font-size: 15px;
+margin-bottom: 20px;}
+.summer_inner .txtBox span {}
+.summer_inner .txtBox span a {color: #7e5732;
+                            display: inline-block;
+                            padding: 8px 20px;
+                        border: 1px solid #7e5732;
+                    border-radius: 5px;
+                font-size: 14px;
+            transition: all 0.5s;}
+
+.summer_inner .txtBox span a:hover {background-color: #7e5732;
+                                    color: #fff;
+                                    text-decoration: underline;}
 
 
-/* 미디어쿼리구간설정############################################### */
+/* 다섯번째 섹션설정 */
+section:nth-child(5) {background-image: url(img/bali_bg.png);
+                    background-size: cover;
+                background-position: center bottom;
+            height: 300px;
+        padding: 40px 0;}
+
+.reserve_inner {display: flex;
+justify-content: flex-end;}
+.reserve_inner .txtBox {
+                        display: flex;
+                    flex-direction: column;
+                justify-content: center;
+                align-items: center;}
+                .reserve_inner .imgBox {width: 45%;
+                    display: flex;
+                    justify-content: center;
+                            }
+
+                            .reserve_inner .txtBox span {margin-top: 20px;}
+
+                            .reserve_inner .txtBox span a {color: #7e5732;
+                                display: inline-block;
+                                padding: 8px 20px;
+                            border: 1px solid #7e5732;
+                        border-radius: 5px;
+                    font-size: 14px;
+                transition: all 0.5s;}
+    
+                .reserve_inner .txtBox span a:hover {background-color: #7e5732;
+                                        color: #fff;
+                                        text-decoration: underline;}
+
+ /* 미디어쿼리구간설정############################################### */
 
 /* 와이드데스크탑 설정 */
 
@@ -287,7 +358,7 @@ letter-spacing:-1px;
 @media(min-width:1280px){
 
 
-    .header_inner , .reward_inner{width: 1240px;
+    .header_inner , .reward_inner, .summer_inner , .reserve_inner{width: 1240px;
                     margin: 0 auto;}
 
     .notice_inner {width: 620px;
