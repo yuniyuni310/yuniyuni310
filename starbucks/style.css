@@ -512,6 +512,58 @@ section:nth-child(6) {background-image: url(img/2024_summer_pick_bg.jpg);
             background-attachment: fixed;}
 
 
+ /* 일곱번째섹션 */
+
+section:nth-child(7) {}
+
+
+.reserve2_inner {display: flex;
+position: relative;
+height:400px ;
+justify-content: center;
+align-items: center;}
+
+.reserve2_inner .txtBox {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.reserve2_inner .txtBox span {margin-left: 110px;
+margin-top: 50px;}
+
+.reserve2_inner .txtBox span a {
+    color: #000;
+    display: inline-block;
+    padding: 8px 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+
+.reserve2_inner .txtBox span a:hover {
+    color: #fff;
+    text-decoration: underline;
+    background-color: #000;
+}
+
+
+
+.reserve2_inner .imgBox {
+    position: absolute;
+    right: 120px;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+/* 여덟번째 섹션 설정 */
+section:nth-child(8) {}
+
+.search_inner {height: 400px;
+                position: relative;}
+
 
 
 
@@ -528,7 +580,9 @@ section:nth-child(6) {background-image: url(img/2024_summer_pick_bg.jpg);
     .reward_inner,
     .summer_inner,
     .reserve_inner,
-    .pickup_inner {
+    .pickup_inner,
+    .reserve2_inner,
+    .search_inner{
         width: 1240px;
         margin: 0 auto;
     }
